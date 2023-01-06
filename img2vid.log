@@ -10202,3 +10202,7 @@ DEBUG:root:1086:195,0,255
 DEBUG:root:1087:195,0,255
 DEBUG:root:1088:195,0,255
 DEBUG:root:1089:195,0,255
+DEBUG:root:2023/01/06-10:59:08
+DEBUG:root:generate start!!
+DEBUG:root:new video generated.
+DEBUG:git.cmd:Popen(['git', 'add', '--update'], cwd=/home/ec2-user/python/world/main, universal_newlines=False, shell=None, istream=None)
