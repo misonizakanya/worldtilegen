@@ -1007,3 +1007,6 @@ DEBUG:root:9,7:[0 0 0]
 DEBUG:root:9,8:[0 0 2]
 DEBUG:root:9,9:[0 0 0]
 DEBUG:git.cmd:Popen(['git', 'add', '--update'], cwd=/home/ec2-user/python/world/main, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'cat-file', '--batch-check'], cwd=/home/ec2-user/python/world/main, universal_newlines=False, shell=None, istream=<valid stream>)
+DEBUG:git.cmd:Popen(['git', 'cat-file', '--batch'], cwd=/home/ec2-user/python/world/main, universal_newlines=False, shell=None, istream=<valid stream>)
+DEBUG:git.cmd:Popen(['git', 'push', '--porcelain', '--', 'origin'], cwd=/home/ec2-user/python/world/main, universal_newlines=True, shell=None, istream=None)
