@@ -18,3 +18,7 @@ DEBUG:root:2023/01/06-11:13:14
 DEBUG:root:generate start!!
 DEBUG:root:new video generated.
 DEBUG:git.cmd:Popen(['git', 'add', '--update'], cwd=/home/ec2-user/python/world/main, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'cat-file', '--batch-check'], cwd=/home/ec2-user/python/world/main, universal_newlines=False, shell=None, istream=<valid stream>)
+DEBUG:git.cmd:Popen(['git', 'cat-file', '--batch'], cwd=/home/ec2-user/python/world/main, universal_newlines=False, shell=None, istream=<valid stream>)
+DEBUG:git.cmd:Popen(['git', 'push', '--porcelain', '--', 'origin'], cwd=/home/ec2-user/python/world/main, universal_newlines=True, shell=None, istream=None)
+DEBUG:root:new video pushed.
